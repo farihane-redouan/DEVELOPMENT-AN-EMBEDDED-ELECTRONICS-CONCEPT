@@ -14,7 +14,7 @@ private Button comp,cust;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.comp = findViewById(R.id.company);
-        this.cust = findViewById(R.id.customers);
+        this.cust = findViewById(R.id.customers) ;
 
         comp.setOnClickListener(new View.OnClickListener() {
             @Override
